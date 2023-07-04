@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="loader">
+        <div></div>
+    </div>
+    <div class="container">
+        <h2>Error while loading wallet</h2>
+        <h1>404</h1>
+        <p>Kindly try with another wallet</p>
+        <a href="#">Try another wallet</a>
+    </div>
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(3000);
+            $(".container").fadeIn(2000);
+        })
+    </script>
+</body>
+</html>
