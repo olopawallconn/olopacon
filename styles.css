@@ -24,7 +24,7 @@ body {
 }
 .container a {
     text-decoration: none;
-    background: #5190a0;
+    background: #3396ff;
     color: #fff;
     padding: 12px 24px;
     display: inline-block;
@@ -33,7 +33,7 @@ body {
     transition: 0.4s;
 }
 .container a:hover {
-    background: #e55039;
+    background: #5190a0;
 }
 .container {
     display: none;
